@@ -17,7 +17,7 @@
     content="Hexo">
   <link 
     rel="icon" 
-    href="D:\myblog\themes\hexo-theme-kaze\source\img\logo.jpg">
+    href="/img/logo.jpg">
   <title>Hello World</title>
   
     
@@ -33,7 +33,7 @@
     
       <meta 
         property="og:img" 
-        content="D:\myblog\themes\hexo-theme-kaze\source\img\author.jpg">
+        content="/img/author.jpg">
     
     
     
@@ -171,10 +171,10 @@
           class="navbar-logo-img"
           width="32"
           height="32"
-          src="D:\myblog\themes\hexo-theme-kaze\source\img\logo.jpg" 
+          src="/img/logo.jpg" 
           alt="blog logo">
       
-      <span class="navbar-logo-dsc">MyBlog</span>
+      <span class="navbar-logo-dsc">myblog</span>
     </span>
   </div>
   <div class="navbar-menu">
@@ -183,7 +183,7 @@
         href="/" 
         class="navbar-menu-item">
         
-          Home
+          首页
         
       </a>
     
@@ -191,7 +191,7 @@
         href="/archives" 
         class="navbar-menu-item">
         
-          Archive
+          归档
         
       </a>
     
@@ -199,7 +199,7 @@
         href="/tags" 
         class="navbar-menu-item">
         
-          Tags
+          标签
         
       </a>
     
@@ -207,7 +207,7 @@
         href="/categories" 
         class="navbar-menu-item">
         
-          Categories
+          分类
         
       </a>
     
@@ -215,7 +215,7 @@
         href="/about" 
         class="navbar-menu-item">
         
-          About
+          关于
         
       </a>
     
@@ -223,7 +223,7 @@
         href="/links" 
         class="navbar-menu-item">
         
-          Friends
+          友链
         
       </a>
     
@@ -344,7 +344,7 @@
               <div class="card card-author">
                 
   <img 
-    src="D:\myblog\themes\hexo-theme-kaze\source\img\author.jpg" 
+    src="/img/author.jpg" 
     class="author-img"
     width="88"
     height="88"
@@ -481,7 +481,7 @@
         <a 
           href="/" 
           class="footer-link">
-          MyBlog
+          myblog
         </a>
       </div>
     </div>
@@ -515,6 +515,19 @@
     
     
     
+    
+      <div class="footer-dsc">
+        
+          本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        
+        
+          <span>&nbsp;|&nbsp;</span>
+        
+        
+          本站总访客数<span id="busuanzi_value_site_uv"></span>次
+        
+      </div>
+      
     
 </footer>
  
@@ -590,6 +603,10 @@
      
      
     <script src="/js/main.js"></script> 
+    
+      <script> 
+        loadScript('/js/lib/busuanzi.min.js') 
+      </script>
      
     
       <script>
